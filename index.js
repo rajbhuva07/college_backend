@@ -1042,3 +1042,4 @@ app.post('/contact', async (req, res) => {
 
 
 app.listen(PORT, () => console.log("server is running" + PORT))
+module.exports = app;
