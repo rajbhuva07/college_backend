@@ -15,7 +15,7 @@ const session = require('express-session');
 const app = express()
 app.use(cors())
 app.use(express.json({ limit: '10mb' }))
-const PORT = process.env.PORT || 8081
+const PORT = `https://college-admin-sigma.vercel.app` || 8081
 
 
 //mongodb connection
